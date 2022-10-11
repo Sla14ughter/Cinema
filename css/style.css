@@ -4,8 +4,12 @@
 
 body {
     background-color: #621402;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     color: white;
+}
+
+option {
+    color: black;
 }
 
 .container {
@@ -27,7 +31,12 @@ body {
 
 .header {
     padding-bottom: 60px;
-    background: linear-gradient(180deg, rgba(98, 20, 2, 0.31) 0%, #621402 85.62%), url("../img/bg.png") no-repeat center top / cover;
+    background: linear-gradient(
+            180deg,
+            rgba(98, 20, 2, 0.31) 0%,
+            #621402 85.62%
+        ),
+        url("../img/bg.png") no-repeat center top / cover;
 }
 
 .m-menu {
@@ -39,7 +48,6 @@ body {
     color: white;
     display: flex;
     align-items: center;
-
 }
 
 .menu {
@@ -181,10 +189,10 @@ body {
     background: rgba(255, 255, 255, 0.15);
     border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 5px;
-    color: white;
     padding: 18px;
     cursor: pointer;
     margin-top: 15px;
+    color: white;
 }
 
 .select-cinema {
@@ -199,7 +207,6 @@ body {
 .scheme-svg {
     max-width: 1170px;
 }
-
 
 .scheme path:not(.light) {
     fill: rgba(255, 255, 255, 0.2);
@@ -218,7 +225,7 @@ body {
 
 .scheme path.active,
 .scheme path.active:hover {
-    fill: #FE8E05;
+    fill: #fe8e05;
     cursor: pointer;
 }
 
@@ -236,7 +243,6 @@ body {
     height: 35px;
 }
 
-
 .legend-label {
     display: flex;
     align-items: center;
@@ -245,7 +251,7 @@ body {
 }
 
 .legend-active-text {
-    color: #FE8E05;
+    color: #fe8e05;
 }
 
 .legend svg {
